@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 1px solid black;
+    min-height: 500px;
+    font-size: 30px;
+    margin: 20px;
+}
+.child{
+    border: 5px solid red;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    right: 180px;
+}

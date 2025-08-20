@@ -1,0 +1,15 @@
+.loader{
+    width: 1200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 100px auto;
+}
+.loading{
+    height: 100%;
+    width: 0%;
+    background-color: orange;
+    transition-duration: 3s;
+}
+.loader:hover .loading{
+    width: 100%;
+}

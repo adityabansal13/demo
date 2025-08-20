@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 1px solid black;
+    min-height: 500px;
+    font-size: 30px;
+    margin: 20px;
+    position: relative; /* This is important for absolute positioning of child */
+    /* If you want to use absolute positioning for the child, the parent must have a position set */
+    /* relative, absolute, or fixed */
+    /* If the parent has no position set, the child will be positioned relative to the viewport */
+    /* If the parent has position: relative, the child will be positioned relative to the parent */
+    /* If the parent has position: absolute, the child will be positioned relative to the nearest positioned ancestor */
+    /* If the parent has position: fixed, the child will be positioned relative to the viewport */
+    /* If the parent has position: sticky, the child will be positioned relative to the nearest scrolling ancestor */
+}
+.child{
+    border: 5px solid red;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

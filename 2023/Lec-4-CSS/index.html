@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CB Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="header-section.css">
+    <link rel="stylesheet" href="user-details.css">
+    <link rel="stylesheet" href="courses-section.css">
+</head>
+<body>
+    <form class="cb-form">
+
+        <!-- Header section START-->
+         <section class="header-section">
+            <table class="header-section-table">
+                <tr>
+                    <td class="cb-logo">
+                        <!-- CB Logo -->
+                         <div class="cb-logo-img"></div>
+                    </td>
+                    <td class="header-section-heading">
+                        <div class="application-heading-text">
+                            Student Application Form
+                        </div>
+                    </td>
+                    <td class="enquiry-info">
+                        <div class="enquiry-text">
+                            <!-- Enquiry Information -->
+                            <input type="checkbox" name="enquiry">Enquiry
+                            <br>
+                            <input type="checkbox" name="enquiry">Enrolled
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- Header section END-->
+
+
+        <!-- User Information Collection START -------------------------------------->
+        <section class="user-details">
+            <table class="user-details-table">
+                <tr>
+                    <td class="user-details-info">
+                        <div class="user-fields-text">
+                            <div class="user-details-field">
+                                Name: 
+                            </div>
+                            <div class="user-details-field">
+                                Contact: 
+                            </div>
+                            <div class="user-details-field">
+                                State: 
+                            </div>
+                            <div class="user-details-field">
+                                College: 
+                            </div>
+                            <div class="user-details-field">
+                                Branch: 
+                            </div>
+                        </div>
+
+                        <div class="user-fields-input">
+                            <input name="name" type="text" class="user-details-input">
+                            <input name="contact" type="tel" class="user-details-input">
+                            <input name="state" type="text" class="user-details-input">
+                            <input name="college" type="text" class="user-details-input">
+                            <input name="branch" type="text" class="user-details-input">
+
+                        </div>
+                    </td>
+
+                    <td class="user-details-info">
+                        <div class="user-fields-text">
+                            <div class="user-details-field">
+                                Date of Birth: 
+                            </div>
+                            <div class="user-details-field">
+                                Address: 
+                            </div>
+                            <div class="user-details-field">
+                                Pin Code: 
+                            </div>
+                            <div class="user-details-field">
+                                University: 
+                            </div>
+                            <div class="user-details-field">
+                                Graduation Year: 
+                            </div>
+                        </div>
+
+                        <div class="user-fields-input">
+                            <input name="dob" type="date" class="user-details-input">
+                            <input name="address" type="text" class="user-details-input">
+                            <input name="pincode" type="number" class="user-details-input">
+                            <input name="university" type="text" class="user-details-input">
+                            <input name="graduation-year" type="number" class="user-details-input">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- User Information Collection END ---------------------------------------->
+
+
+
+        <!-- Courses Choose Section START ---------------------------------------->
+        <section class="course-choose-section">
+            <div class="course-choose-heading">
+                Course Interested In (Please tick the appropriate one)
+            </div>
+
+            <div class="course-selection">
+                <div class="choose-course choose-course-item-1">
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Launchpad</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Java</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">C++</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Python</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Data Science</span>
+                    </div>
+                </div>
+                <div class="choose-course choose-course-item-2">
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Crux</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Java DSA</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">C++ DSA</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Machine Learning</span>
+                    </div>
+                    <div class="courses-name-container">
+                        <input type="checkbox" name="Launchpad" class="courses-checkbox">
+                        &nbsp;&nbsp;<span class="courses-name">Sampoorna</span>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Courses Choose Section END ---------------------------------------->
+        
+    </form>
+</body>
+</html>

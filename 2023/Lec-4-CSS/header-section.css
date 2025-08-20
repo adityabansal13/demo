@@ -1,0 +1,45 @@
+.header-section{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-section-table{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.cb-logo,
+.header-section-heading,
+.enquiry-info{
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.cb-logo-img{
+    width: 50%;
+    background-image: url(cblogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    height: 100px;
+}
+
+.application-heading-text,
+.enquiry-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.application-heading-text{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+}
+
+.enquiry-text input{
+    height: 20px;
+    width: 20px;
+}
